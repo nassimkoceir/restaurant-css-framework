@@ -7,6 +7,16 @@ $light: 300;
 body {
 	background: #222;
 	font-family: $font;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #fff;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
 }
 
 .navbar-brand, .brand {
@@ -23,21 +33,99 @@ body {
 	background: #000;
 }
 
+.navbar-dark .navbar-nav li {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-toggler {
+	border: none;
+	color: #000;
+	background: rgba(255,255,255,.125);
+}
+
+header {
+	margin-bottom: 0;
+}
+
 .jumbotron {
 	background: url('../img/ramen-home-bg.jpg') center;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 0;
+	padding: 6rem 2rem;
+
+	h1 {
+		font-family: $logo-font;
+		font-size: 4rem;
+		text-shadow: 0px 2px 5px rgba(0,0,0,.75);
+	}
+
+	h2 {
+		font-family: $font;
+		font-weight: $light;
+		text-shadow: 0px 2px 5px rgba(0,0,0,.75);
+	}
 }
 
-.jumbotron h1 {
-	font-family: $logo-font;
-	font-size: 4rem;
-	text-shadow: 0px 2px 5px rgba(0,0,0,.75);
+.homepage {
+	section {
+		margin-bottom: 0;
+		background: url('../img/slate-bg.jpg') center no-repeat;
+		background-size: cover;
+	}
+
+	section:first-child {
+		border-bottom: 10px solid #111;
+	}
+
+	h2 {
+		margin-top: 2rem;
+	}
+
+	h3 {
+		font-family: $logo-font;
+	}
+
+	p {
+		text-align: justify;
+		font-size: 1.1rem;
+	}
+
+	figure {
+		padding: 0;
+		margin-bottom: 0;
+	}
 }
 
-.jumbotron h2 {
-	font-family: $font;
-	font-weight: $light;
-	text-shadow: 0px 2px 5px rgba(0,0,0,.75);
+footer {
+	background: #111;
+	padding: 3rem;
+
+	h2 {
+		font-family: $logo-font;
+		font-size: 3rem;
+	}
+
+	ul li {
+		color: #999;
+	}
+
+	.copy {
+		color: #666;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar-dark .navbar-nav li {
+		font-size: 1rem;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.homepage {
+		section:first-child {
+			border-bottom: none;
+		}
+	}
 }
