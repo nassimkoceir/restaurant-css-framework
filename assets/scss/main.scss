@@ -49,12 +49,11 @@ header {
 }
 
 .jumbotron {
-	background: url('../img/ramen-home-bg.jpg') center;
+	background: url('../img/ramen-home-bg.jpg') center ;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 0;
-	padding: 6rem 2rem;
 
 	h1 {
 		font-family: $logo-font;
@@ -99,6 +98,12 @@ header {
 	}
 }
 
+.menu {
+	h3 {
+		font-family: $logo-font;
+	}
+}
+
 footer {
 	background: #111;
 	padding: 3rem;
@@ -121,7 +126,12 @@ footer {
 	.navbar-dark .navbar-nav li {
 		font-size: 1rem;
 	}
+
+	.jumbotron {
+		padding: 6rem 2rem;
+	}
 }
+
 @media only screen and (min-width: 992px) {
 	.homepage {
 		section:first-child {
