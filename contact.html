@@ -11,6 +11,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/16514cbf08.js"></script>
 	<link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
@@ -25,7 +26,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="menu.html">Menu</a>
 					</li>
 					<li class="nav-item">
@@ -34,7 +35,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="resto.html">Restaurant</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
@@ -49,10 +50,47 @@
 	  </div>
 	</header>
 
-	<main class="menu">
+	<main class="contact">
 		<div class="container">
 			<article class="row">
+				<div class="col-12">
+					<h2>Contact Us</h2>
+					<p class="hat">You have something to say or to ask us ? Don't hesitate to use our contact form !</p>
+				</div>
+				<form class="col-12">
+					<div class="row form-group">
+						<div class="col-md-6">
+							<label for="firstname">First Name</label>
+							<input type="firstname" class="form-control" id="email" placeholder="Enter first name">
+						</div>
+						<div class="col-md-6">
+							<label for="lastname">Last Name</label>
+							<input type="lastname" class="form-control" id="email" placeholder="Enter last name">
+						</div>
+					</div>
 
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<select class="form-control" id="subject">
+							<option>Reservation</option>
+							<option>Catering</option>
+							<option>Complain</option>
+							<option>Suggestion</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="message">Your Message</label>
+						<textarea class="form-control" id="message" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-dark btn-lg btn-block"><i class="fas fa-paper-plane"></i> Submit</button>
+				</form>
 			</article>
 		</div>
 	</main>

@@ -126,6 +126,57 @@ header {
   margin-top: 2rem;
 }
 
+.contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact h2 {
+  font-size: 3rem;
+}
+
+.contact .hat {
+  font-family: "Amatic SC";
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.contact form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.contact form input, .contact form textarea, .contact form select {
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid #999;
+  border-left: 0;
+  transition: all 0.3s ease;
+  color: #ddd;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.contact form input::placeholder, .contact form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact form input:focus, .contact form textarea:focus, .contact form select:focus {
+  background: rgba(255, 255, 255, 0.75);
+  border-bottom: 2px solid #fff;
+  box-shadow: none;
+  color: #222;
+}
+
+.contact form .btn-dark {
+  background: #444;
+}
+
+.contact form .btn-dark:hover {
+  background: #222;
+}
+
 footer {
   background: #111;
   padding: 3rem;

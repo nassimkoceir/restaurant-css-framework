@@ -136,6 +136,57 @@ header {
 	}
 }
 
+.contact {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.hat {
+		font-family: $logo-font;
+		text-align: center;
+		font-size: 1.8rem;
+	}
+
+	form {
+		background: rgba(255,255,255,.10);
+		padding: 2rem;
+		border-radius: 5px;
+
+		input, textarea, select {
+			border-radius: 0;
+			border-top: 0;
+			border-right: 0;
+			border-bottom: 2px solid #999;
+			border-left: 0;
+			transition: all 0.3s ease;
+			color: #ddd;
+			background: rgba(255,255,255,.15)
+		}
+
+		input::placeholder, textarea::placeholder {
+			color: rgba(255,255,255,.5);
+		}
+
+		input:focus, textarea:focus, select:focus {
+			background: rgba(255,255,255,.75);
+			border-bottom: 2px solid #fff;
+			box-shadow: none;
+			color: #222;
+		}
+
+		.btn-dark {
+			background: #444;
+		}
+
+		.btn-dark:hover {
+			background: #222;
+		}
+	}
+}
+
 footer {
 	background: #111;
 	padding: 3rem;
