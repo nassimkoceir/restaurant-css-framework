@@ -2,7 +2,7 @@
 A Bootstrap Challenge about learning and food
 
 ## Maguro : a project by ...
-Nassim Koceir
+Nassim Koceir and published here : [Access to Maguro](https://nassimkoceir.github.io/restaurant-css-framework/)
 
 ![preview](https://nassimkoceir.github.io/restaurant-css-framework/preview.jpg)
 
