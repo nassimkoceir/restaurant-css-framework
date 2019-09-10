@@ -90,8 +90,40 @@ header {
   margin-bottom: 0;
 }
 
-.menu h3 {
+.menu h2 {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.menu .hat {
   font-family: "Amatic SC";
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.menu .menu {
+  color: #222;
+  background: #F8ECC2;
+  padding-bottom: 2rem;
+}
+
+.menu .menu p {
+  font-weight: 300;
+}
+
+.menu .menu > ul li {
+  padding-bottom: .5rem;
+}
+
+.menu .menu .badge {
+  float: right;
+}
+
+.menu h3 {
+  color: #222;
+  font-family: "Amatic SC";
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 
 footer {

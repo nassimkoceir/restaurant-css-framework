@@ -99,8 +99,40 @@ header {
 }
 
 .menu {
-	h3 {
+	h2 {
+		margin-top: 2rem;
+		font-size: 3rem;
+	}
+
+	.hat {
 		font-family: $logo-font;
+		text-align: center;
+		font-size: 1.8rem;
+	}
+
+	.menu {
+		color: #222;
+		background: #F8ECC2;
+		padding-bottom: 2rem;
+
+		p {
+			font-weight: $light;
+		}
+
+		> ul li {
+			padding-bottom: .5rem;
+		}
+
+		.badge {
+			float: right;
+		}
+	}
+
+	h3 {
+		color: #222;
+		font-family: $logo-font;
+		font-size: 3rem;
+		margin-top: 2rem;
 	}
 }
 
