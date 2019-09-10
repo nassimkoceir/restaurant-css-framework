@@ -4,6 +4,8 @@ A Bootstrap Challenge about learning and food
 ## Maguro : a project by ...
 Nassim Koceir
 
+![alt text][https://nassimkoceir.github.io/restaurant-css-framework/preview.jpg]
+
 ## What is all about ?
 We had to create a website for a fake restaurant chain with Bootstrap, without using a theme.
 
