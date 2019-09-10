@@ -1,5 +1,17 @@
 # restaurant-css-framework
-Bootstrap Challenge about learning and food
+A Bootstrap Challenge about learning and food
+
+## Maguro : a project by ...
+Nassim Koceir
+
+## What is all about ?
+We had to create a website for a fake restaurant chain with Bootstrap, without using a theme.
+
+## When did you work on this ?
+10 September 2019
+
+## Where did you work on this project ?
+It's a BeCode Project to learn Bootstrap
 
 ## Sources
 https://unsplash.com/photos/fBeRt6DnhC8
