@@ -136,6 +136,74 @@ header {
 	}
 }
 
+.gallery {
+	margin-bottom: 2rem;
+
+	h2 {
+		margin-top: 2rem;
+		font-size: 3rem;
+	}
+
+	.hat {
+		font-family: $logo-font;
+		text-align: center;
+		font-size: 1.8rem;
+	}
+
+	.pagination {
+		margin: auto;
+
+		li a {
+			background: rgba(255,255,255,.25);
+			border: 1px solid transparent;
+			color: #222;
+			font-weight: $bold;
+		}
+
+		.page-item.active .page-link {
+			background: rgba(0,0,0,.25);
+			border-color: rgba(255,255,255,.25)
+		}
+
+		.page-item.disabled .page-link {
+			background: rgba(255,255,255,.25);
+			border: 1px solid transparent;
+			color: #222;
+		}
+	}
+
+	.carousel {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.resto {
+	margin-bottom: 2rem;
+
+	h2 {
+		margin-top: 2rem;
+		font-size: 3rem;
+	}
+
+	.hat {
+		font-family: $logo-font;
+		text-align: center;
+		font-size: 1.8rem;
+	}
+
+	h3 {
+		font-family: $logo-font;
+		font-size: 3rem;
+		margin-top: 2rem;
+		text-align: left;
+	}
+
+	section {
+		margin-bottom: 2rem;
+	}
+}
+
 .contact {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -187,7 +255,64 @@ header {
 	}
 }
 
-footer {
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive::before {
+    width: 100%;
+    height: 25px;
+    content: " ";
+    position: relative;
+    display: block;
+    z-index: 6;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; /* This is the aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.google-maps-center {
+    position: relative;
+    padding-bottom: 25%; /* This is the aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.google-maps-center iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+		border:0;
+}
+
+body > footer {
 	background: #111;
 	padding: 3rem;
 
