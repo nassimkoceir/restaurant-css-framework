@@ -43,7 +43,7 @@ header {
 }
 
 .jumbotron {
-  background: url("../img/ramen-home-bg.jpg") center;
+  background: url("../img/ramen-home-bg.webp") center;
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -64,7 +64,7 @@ header {
 
 .homepage section {
   margin-bottom: 0;
-  background: url("../img/slate-bg.jpg") center no-repeat;
+  background: url("../img/slate-bg.webp") center no-repeat;
   background-size: cover;
 }
 
